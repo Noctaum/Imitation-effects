@@ -175,12 +175,13 @@ function censor (){
 	}
 
 	graph.font="bold 15px sans-serif";
-    	graph.fillStyle="black";
-    	graph.strokeStyle="black";
+   	graph.fillStyle="black";
     	graph.fillText("p21,p12", 30, 10);
-    	graph.fillText("p12 - красный", 390, 10);
-    	graph.fillText("p21 - зелёный", 390, 25);
-    	graph.fillText("F", 490, 480);
+   	graph.fillText("F", 490, 480);
+   	graph.fillStyle="red";
+   	graph.fillText("p12 - красный", 390, 10);
+  	graph.fillStyle="green";
+  	graph.fillText("p21 - зелёный", 390, 25);
 	
 //Создаем ссылку на скачивание
 	$('#bigTable').append('<div><h5><a id="download"> Скачать</a></h5></div>');
