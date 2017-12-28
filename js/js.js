@@ -174,6 +174,14 @@ function censor (){
 		else graph.fillRect(x + 2, y - 0.5, 3, 1);
 	}
 
+	graph.font="bold 15px sans-serif";
+    	graph.fillStyle="black";
+    	graph.strokeStyle="black";
+    	graph.fillText("p21,p12", 30, 10);
+    	graph.fillText("p12 - красный", 390, 10);
+    	graph.fillText("p21 - зелёный", 390, 25);
+    	graph.fillText("F", 490, 480);
+	
 //Создаем ссылку на скачивание
 	$('#bigTable').append('<div><h5><a id="download"> Скачать</a></h5></div>');
     var a =  document.getElementById("download");
